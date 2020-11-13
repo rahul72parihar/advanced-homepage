@@ -1,0 +1,4 @@
+// Usage ex. : background-color: color("primary");
+@function color($color) {
+  @return map-get($colors, $color);
+}
