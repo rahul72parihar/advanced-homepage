@@ -1,0 +1,46 @@
+.card {
+  width: 341px;
+  height: 422px;
+  transition: all 0.2s;
+  border-radius: $larger-border-radius;
+  padding: 45px 34px;
+
+  &:hover {
+    box-shadow: $shadow;
+  }
+
+  .icon {
+    margin-bottom: 35px;
+  }
+
+  .heading {
+    font-weight: font-weight("bold");
+    margin-bottom: 24px;
+  }
+
+  .paragraph {
+    color: color("gray-dark");
+    line-height: 2.4rem;
+  }
+
+  .button {
+    margin-top: 30px;
+    font-size: font-size("regular");
+  }
+}
+
+// Card to display images & projects
+.project-card {
+  .image-wrapper {
+    border-radius: $larger-border-radius;
+    overflow: hidden;
+    width: 351px;
+    height: 351px;
+    margin-bottom: 10px;
+
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+}

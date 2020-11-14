@@ -42,7 +42,8 @@ $success: #27ae60;
 $danger: #eb5757;
 $theme-color: #100e1d;
 $white: #ffffff;
-$gray-0: #e0e0e0;
+$gray-0: #f2f2f2;
+$gray-50: #e0e0e0;
 $gray-100: #bdbdbd;
 $gray-200: #a9a9a9;
 $gray-300: #828282;
@@ -55,7 +56,8 @@ $colors: (
   "danger": $danger,
   "theme": $theme-color,
   "white": $white,
-  "gray-lightest": $gray-0,
+  "gray-white": $gray-0,
+  "gray-lightest": $gray-50,
   "gray-lighter": $gray-100,
   "gray-light": $gray-200,
   "gray": $gray-300,
@@ -69,6 +71,7 @@ $small-font-size: 1.2rem;
 $regular-font-size: 1.6rem;
 $medium-font-size: 1.8rem;
 $large-font-size: 2.4rem;
+$extra-large-font-size: 3.6rem;
 
 $font-sizes: (
   "base": $base-font-size,
@@ -76,6 +79,7 @@ $font-sizes: (
   "regular": $regular-font-size,
   "medium": $medium-font-size,
   "large": $large-font-size,
+  "extra-large": $extra-large-font-size,
 );
 
 // Font family

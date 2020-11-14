@@ -1,0 +1,53 @@
+.logo {
+  font-size: font-size("large");
+  font-weight: font-weight("extra-bold");
+  font-family: $header-font-family;
+  color: color("gray-darker");
+  line-height: 3.5rem;
+}
+
+.xl-heading {
+  font-size: font-size("extra-large");
+  font-weight: font-weight("medium");
+  line-height: 3.6rem;
+  color: color("gray-darker");
+}
+
+.heading {
+  font-size: font-size("large");
+  font-weight: font-weight("medium");
+  line-height: 3.6rem;
+  color: color("gray-darker");
+}
+
+.sub-heading {
+  font-size: font-size("medium");
+  font-weight: font-weight("medium");
+  line-height: 2.7rem;
+  color: color("gray-darker");
+}
+
+.text {
+  font-size: font-size("regular");
+  font-weight: font-weight("regular");
+  line-height: 2.4rem;
+  color: color("gray-dark");
+}
+
+.paragraph {
+  font-size: font-size("small");
+  font-weight: font-weight("regular");
+  line-height: 1.8rem;
+  color: color("gray-dark");
+}
+
+.small-text {
+  font-size: font-size("base");
+  font-weight: font-weight("medium");
+  line-height: 1.8rem;
+  color: color("gray");
+}
+
+.text-red {
+  color: color("red");
+}

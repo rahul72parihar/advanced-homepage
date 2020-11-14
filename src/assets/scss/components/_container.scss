@@ -1,0 +1,20 @@
+.container {
+  max-width: container("extra-small");
+  margin: 0 auto;
+
+  @include small-device {
+    max-width: container("small");
+  }
+
+  @include medium-device {
+    max-width: container("medium");
+  }
+
+  @include large-device {
+    max-width: container("large");
+  }
+
+  @include extra-large-device {
+    max-width: container("extra-large");
+  }
+}

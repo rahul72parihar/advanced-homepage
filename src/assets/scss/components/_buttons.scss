@@ -1,0 +1,53 @@
+.link {
+  color: color("primary");
+
+  @extend .small-text;
+}
+
+.link-medium {
+  color: color("primary");
+
+  @extend .sub-heading;
+}
+
+.button {
+  padding: 0 1.5rem;
+  border-radius: $regular-border-radius;
+  font-weight: font-weight("medium");
+  border: 0;
+  line-height: 42px;
+  background: color("white");
+  transition: all 0.2s;
+  cursor: pointer;
+
+  @extend .sub-heading;
+}
+
+.button-primary {
+  background-color: color("primary");
+  color: color("white");
+
+  @extend .button;
+
+  &:hover {
+    background-color: darken(color("primary"), 10%);
+  }
+}
+
+.button-secondary {
+  background-color: color("gray-lightest");
+  color: color("gray");
+
+  @extend .button;
+
+  &:hover {
+    background-color: darken(color("gray-lightest"), 10%);
+  }
+}
+
+.button-small {
+  font-size: 1.4rem;
+  padding: 0 2rem;
+  line-height: 39px;
+  font-weight: font-weight("bold");
+}
