@@ -23,3 +23,28 @@
     padding: 0;
   }
 }
+
+.small-container {
+  max-width: container("extra-small");
+  margin: 0 auto;
+  padding: 0 10px;
+
+  @include small-device {
+    max-width: container("small") + 250px;
+
+  }
+
+  @include medium-device {
+    max-width: container("medium") + 250px;
+
+  }
+
+  @include large-device {
+    max-width: container("large") + 250px;
+
+  }
+
+  @include extra-large-device {
+    max-width: container("extra-large") + 250px;
+  }
+}

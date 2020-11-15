@@ -6,6 +6,7 @@
   align-items: center;
   border-radius: $medium-border-radius;
   color: color("white");
+  user-select: none;
 
   span {
     font-size: 32px;
