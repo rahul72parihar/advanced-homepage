@@ -49,5 +49,7 @@
 }
 
 .text-red {
-  color: color("red");
+  color: color("danger") !important;
+
+  @extend .sub-heading;
 }
