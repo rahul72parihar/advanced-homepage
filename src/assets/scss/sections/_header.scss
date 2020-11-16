@@ -3,11 +3,11 @@ header {
   display: flex;
   justify-content: space-between;
 
-  @include medium_device {
+  @include medium-device {
     padding: 20px;
   }
 
-  @include large_device {
+  @include large-device {
     padding: 50px;
   }
 
@@ -22,7 +22,7 @@ header {
       transition: 0.2s;
     }
 
-    @include medium_device {
+    @include medium-device {
       display: none;
     }
   }
@@ -37,7 +37,7 @@ header {
     top: 0;
     z-index: 1000;
 
-    @include medium_device {
+    @include medium-device {
       display: none;
     }
   }
@@ -64,14 +64,14 @@ header {
           color: color("primary");
         }
 
-        @include medium_device {
+        @include medium-device {
           font-size: font-size("medium");
           font-weight: font-weight("medium");
           line-height: 2.7rem;
           color: color("gray-darker");
         }
 
-        @include large_device {
+        @include large-device {
           font-size: font-size("large");
           font-weight: font-weight("medium");
           line-height: 3.6rem;
@@ -81,12 +81,12 @@ header {
 
       .nav-item {
         cursor: pointer;
-        @include medium_device {
+        @include medium-device {
           margin: 0 30px;
         }
       }
 
-      @include medium_device {
+      @include medium-device {
         position: relative;
         transform: 0;
         display: flex;
@@ -102,7 +102,7 @@ header {
   .logo {
     z-index: 1001;
 
-    @include large_device {
+    @include large-device {
       font-size: font-size("extra-large");
       font-weight: font-weight("extra-bold");
       font-family: $header-font-family;
@@ -117,7 +117,7 @@ header {
     .logo {
       color: color("white");
 
-      @include medium_device {
+      @include medium-device {
         color: color("gray-darker");
       }
     }
@@ -156,7 +156,7 @@ header {
       width: 100%;
       height: 100vh;
 
-      @include medium_device {
+      @include medium-device {
         position: relative;
         width: auto;
         height: auto;

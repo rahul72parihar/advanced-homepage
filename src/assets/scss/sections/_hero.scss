@@ -1,18 +1,18 @@
 .hero {
   margin-top: 48px;
 
-  @include medium_device {
+  @include medium-device {
     margin-top: 96px;
   }
 
   .img-wrapper {
     padding: 15px 10px;
 
-    @include medium_device {
+    @include medium-device {
       padding: 20px;
     }
 
-    @include large_device {
+    @include large-device {
       padding: 40px 50px;
     }
 
@@ -21,7 +21,7 @@
       height: 145px;
       border-radius: $large-border-radius;
 
-      @include small_device {
+      @include small-device {
         height: auto;
       }
     }
@@ -30,7 +30,7 @@
   .heading {
     font-weight: font-weight("medium");
 
-    @include large_device {
+    @include large-device {
       font-size: 4.8rem;
       line-height: 7.2rem;
     }
@@ -39,7 +39,7 @@
   .link {
     font-size: font-size("small");
 
-    @include large_device {
+    @include large-device {
       font-size: font-size("medium");
       line-height: 2.7rem;
     }

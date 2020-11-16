@@ -21,6 +21,10 @@
   .paragraph {
     color: color("gray-dark");
     line-height: 2.4rem;
+
+    @include large_device {
+      font-size: font-size("regular");
+    }
   }
 
   .button {
