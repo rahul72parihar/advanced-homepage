@@ -1,4 +1,0 @@
-// Usage ex. : font-size: font-size("regular");
-@function font-size($type) {
-  @return map-get($font-sizes, $type);
-}

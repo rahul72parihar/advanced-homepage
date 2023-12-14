@@ -1,4 +1,0 @@
-// Usage ex. : font-weight: font-weight("regular");
-@function font-weight($type) {
-  @return map-get($font-weights, $type);
-}
